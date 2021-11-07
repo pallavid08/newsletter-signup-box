@@ -1,0 +1,103 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+img {
+  width: 100px;
+  height: auto;
+}
+@media screen and (max-width: 600px) {
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+  }
+  .iconsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .centerContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .madeWith span:last-of-type {
+    display: block;
+  }
+}
+
+.footerContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* background: linear-gradient(
+    30.11deg,
+    #ffffff -11.43%,
+    #ffee93 13.8%,
+    #f0d7bf 47.62%
+  ); */
+  opacity: 0.85;
+  padding: 10px;
+}
+.iconsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerIcons {
+  width: 50px;
+  height: auto;
+}
+.centerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid black; */
+  padding: 0 25px 25px 25px;
+  border-radius: 10px;
+  width: 250px;
+  background: linear-gradient(
+    30.11deg,
+    #ffffff -11.43%,
+    #f3eab8 13.8%,
+    #f0d7bf 47.62%
+  );
+}
+.formInputWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputBox {
+  width: auto;
+  height: 20px;
+  margin: 5px;
+}
+button {
+  width: auto;
+  height: 25px;
+  margin: 5px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.cross {
+  font-weight: bold;
+}
